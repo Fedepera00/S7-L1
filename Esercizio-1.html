@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creazione Utenti ex.1</title>
+  </head>
+  <body>
+    <h1>Crea un Utente</h1>
+    <form id="userForm">
+      <label for="firstName">Nome:</label>
+      <input type="text" id="firstName" name="firstName" required /><br />
+
+      <label for="lastName">Cognome:</label>
+      <input type="text" id="lastName" name="lastName" required /><br />
+
+      <label for="age">Età:</label>
+      <input type="number" id="age" name="age" required /><br />
+
+      <label for="location">Località:</label>
+      <input type="text" id="location" name="location" required /><br />
+
+      <button type="button" onclick="createUser()">Crea Utente</button>
+    </form>
+
+    <h2>Misurare e Fare un Confronto d'Età</h2>
+    <p id="comparisonResult"></p>
+    <script src="./Esercizio-1.js"></script>
+  </body>
+</html>
